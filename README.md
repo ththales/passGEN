@@ -1,7 +1,5 @@
 # PassGEN
 
-![PassGEN Logo](icon.png)
-
 **PassGEN** é um gerador de senhas seguro e personalizável, desenvolvido para permitir que você crie senhas fortes, únicas e complexas para suas contas online. Com ele, você pode definir o comprimento da senha e escolher se deseja incluir letras maiúsculas, letras minúsculas, números e caracteres especiais.  
 
 Desenvolvido por **@ththales**.
