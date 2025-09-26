@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PassGEN</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+        <link rel="icon" href="icon.png">
+        <style>
+            .sub-button{
+                background-color: cyan;
+                border: none;
+                padding: 10px;
+                border-radius: 5px;
+                box-shadow: -4px 2px 16px -9px #000000;
+                cursor:pointer;
+            }
+            .sub-button:hover {
+                transform:scale(1.1);
+            }
+            #copyBtn {
+                background-color: greenyellow;
+                border: none;
+                padding: 5px;
+                border-radius: 5px;
+                cursor:pointer;
+            }
+            #copyBtn:hover {
+                transform:scale(1.05);
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>PassGEN</h1>
+            <sub>Your Password Generator</sub>
+            <sub>By: @ththales</sub>
+            <a href="tips.html">Tips</a>
+        </header>
+        <main>
+            <form onsubmit="generatePassword(event)">
+                <h2>Generate your password</h2>
+                <br><hr><br>
+
+                <label>Password length</label>
+                <input id="length" type="number" placeholder="0" min="0" required>
+                <br><br>
+
+                <label>Uppercase letters?</label>
+                <input type="radio" name="upperLetters" id="upperYes" value="yes" required checked>
+                <label for="upperYes">Yes</label>
+                <input type="radio" name="upperLetters" id="upperNo" value="no" required>
+                <label for="upperNo">No</label> 
+                <br><br>
+
+                <label>Lowercase letters?</label>
+                <input type="radio" name="lowerLetters" id="lowerYes" value="yes" required checked>
+                <label for="lowerYes">Yes</label>
+                <input type="radio" name="lowerLetters" id="lowerNo" value="no" required>
+                <label for="lowerNo">No</label> 
+                <br><br>
+
+                <label>Numbers?</label>
+                <input type="radio" name="numbers" id="numYes" value="yes" required checked>
+                <label for="numYes">Yes</label>
+                <input type="radio" name="numbers" id="numNo" value="no" required>
+                <label for="numNo">No</label>
+                <br><br>
+
+                <label>Special characters?</label>
+                <input type="radio" name="specialChar" id="specialYes" value="yes" required checked>
+                <label for="specialYes">Yes</label>
+                <input type="radio" name="specialChar" id="specialNo" value="no" required>
+                <label for="specialNo">No</label>
+                <br><br>
+                
+                <button class="sub-button" type="submit">Generate</button>
+
+            </form>
+            <p id="generated"></p>
+            <p id="copy"></p>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
