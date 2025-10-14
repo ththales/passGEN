@@ -38,6 +38,6 @@ O projeto foi desenvolvido utilizando tecnologias **puras** de front-end:
 - **HTML5** – Estrutura da página.
 - **CSS3** – Estilo responsivo e moderno.
 - **JavaScript (Vanilla JS)** – Lógica de geração de senha e manipulação DOM.
-- **Web Crypto API** – Geração de números aleatórios seguros.
+- **Web Crypto API** – Geração de números totalmente aleatórios e seguros, sem padrões facilmente identificáveis.
 
 ---
