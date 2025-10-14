@@ -19,6 +19,7 @@ Além disso, o projeto possui uma página de dicas de segurança para dar dicas 
 ---
 
 ## Funcionalidades
+O sistema permite uma ampla gama de possibilidades para o usuário escolher e personalizar suas senhas de diversas formas, como:
 
 - Definir comprimento da senha.
 - Incluir/excluir letras maiúsculas.
