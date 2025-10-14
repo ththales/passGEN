@@ -22,13 +22,13 @@ Além disso, o projeto possui uma página de dicas de segurança para dar dicas 
 
 ## Funcionalidades
 
-- [x] Definir comprimento da senha.
-- [x] Incluir/excluir letras maiúsculas.
-- [x] Incluir/excluir letras minúsculas.
-- [x] Incluir/excluir números.
-- [x] Incluir/excluir caracteres especiais.
-- [x] Botão de copiar senha para a área de transferência.
-- [x] Dicas de segurança para criação de senhas fortes.
+- Definir comprimento da senha.
+- Incluir/excluir letras maiúsculas.
+- Incluir/excluir letras minúsculas.
+- Incluir/excluir números.
+- Incluir/excluir caracteres especiais.
+- Botão de copiar senha para a área de transferência.
+- Dicas de segurança para criação de senhas fortes.
 
 ---
 
