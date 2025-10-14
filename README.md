@@ -2,8 +2,6 @@
 
 **PassGEN** é um gerador de senhas 100% aleatórias, seguro e personalizável, desenvolvido para permitir que você crie senhas fortes, únicas e complexas para proteger suas contas online. Com ele, você pode definir um comprimento de até 128 caracteres por senha e escolher o charset que a senha abrangerá, isto é, se deseja incluir letras maiúsculas, letras minúsculas, números e caracteres especiais.  
 
-Desenvolvido por **@ththales**.
-
 ---
 
 ## Sobre
